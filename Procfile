@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/spring-boot-sample-web-ui-1.2.5.RELEASE.jar
+web: java -Dserver.port=$PORT -jar target/android-sms-blocker-server-1.2.5.RELEASE.jar
