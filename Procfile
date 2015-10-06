@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar java -jar maven-project/target/spring-boot-sample-web-ui*.jar
+web: java -Dserver.port=$PORT -jar java -jar target/spring-boot-sample-web-ui-1.2.5.RELEASE.jar
