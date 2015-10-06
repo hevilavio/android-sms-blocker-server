@@ -1,2 +1,4 @@
-sample/web/ui/App.class
-sample/web/ui/Hello.class
+net/hevilavio/App.class
+net/hevilavio/Hello.class
+net/hevilavio/model/Sms.class
+net/hevilavio/api/SmsStatisticsApi.class
