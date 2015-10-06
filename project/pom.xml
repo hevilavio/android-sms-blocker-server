@@ -7,13 +7,9 @@
         <version>1.2.5.RELEASE</version>
     </parent>
 	<artifactId>spring-boot-sample-web-ui</artifactId>
-	<name>Spring Boot Web UI Sample</name>
-	<description>Spring Boot Web UI Sample</description>
-	<url>http://projects.spring.io/spring-boot/</url>
-	<organization>
-		<name>Pivotal Software, Inc.</name>
-		<url>http://www.spring.io</url>
-	</organization>
+	<name>Teste App</name>
+	<description>An app teste at Heroku</description>
+
 	<dependencies>
 		 <dependency>
             <groupId>org.springframework.boot</groupId>
