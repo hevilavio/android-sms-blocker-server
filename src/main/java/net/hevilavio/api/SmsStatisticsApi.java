@@ -1,5 +1,6 @@
 package net.hevilavio.api;
 
+import net.hevilavio.model.ApiResult;
 import net.hevilavio.model.Sms;
 import net.hevilavio.repository.SmsRepository;
 
@@ -25,7 +26,7 @@ public class SmsStatisticsApi {
     private SmsRepository smsRepository;
 
     @RequestMapping(value = "/teste", method = RequestMethod.POST, headers = "Content-Type=application/json")
-    public @ResponseBody String smsReceived(@RequestBody(required = false) Sms sms){
+    public @ResponseBody ApiResult smsReceived(@RequestBody(required = false) Sms sms){
 
         logger.info("sms recebido, sms={}", sms);
 
@@ -33,7 +34,7 @@ public class SmsStatisticsApi {
 
         logger.info("sms salvo, sms={}", sms);
 
-        return "OK";
+        return ApiResult.buildSuccess("saved. id=" + sms.getId());
     }
 
 }
